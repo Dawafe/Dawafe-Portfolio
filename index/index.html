@@ -6,9 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dawafestyle.css">
+    <script>
+      $(document).ready(function(){
+        $("instructions").click(function(){
+          $("#dropit").slideToggle();
+        });
+      });
+    </script>
     <title>DAWAFE</title>
   </head>
 <body>
@@ -19,10 +26,22 @@
   </header>
   <section class="intro">
     <p id="hi">Hi there</p>
-    <p id="instructions"><a href="#">here</a> are a few options to choose from<br>or you may scroll down the page<br>to see all content in order</p>
-    <div id="contact"><a href="#">CONTACT</a></div>
-    <div id="bio"><a href="#">BIO</a></div>
-    <div id="projects"><a href="#">PROJECTS</a></div>
+    <p id="instructions">here are a few options to choose from<br>or you may scroll down the page to see all content in order</p>
+      <div id="dropit">
+        <a id="contact" href="#">CONTACT</a>
+        <a id="bio" href="#">BIO</a>
+        <a id="projects" href="#">PROJECTS</a>
+      </div>
+  </section>
+  <section class="bio">
+    <div>Dan Ferg is a web developer and closet nerd who has recently discovered the joys of coding. He likens it to LEGOS as the possibilities are seemingly endless, and yet the natural limitations of the systems force a challenge on creativity of innovation and problem solving. This makes Dan happy.
+      Dan learned to code in 2021. Unlike some, who desired to work from home after the experience of the 2020 pandemic, his motivation for moving into web development was one rooted in a desire to find an occupation that fit his personality, skills, and would bring more satisfaction and less of a drain on his soul. He dabbled in Python to begin with, but soon realized that he wanted to build things that would have more direct interaction with the end user. So web development was an obvious attraction. It has not dissapointed. Continue on to see some of Dan's projects, and stay dangerous.</div>
+  </section>
+  <section class="projects">
+    <div></div>
+  </section>
+  <section class="contact">
+    <div></div>
   </section>
     <footer>
     </footer>

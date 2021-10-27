@@ -6,7 +6,7 @@ body {
 .welcome {
   color: rgb(255, 50, 10);
   font-family: 'Orbitron', sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 400;
   padding: 4% 0 10% 0;
   text-align: center;
@@ -14,10 +14,31 @@ body {
 }
 .intro {
   color: rgb(255, 50, 10);
-  display: block;
-  text-align: left;
+  display: inline-block;
+  width: 100%;
+
 }
-.intro a {
+#hi {
+  font-size: 25px;
+  margin: 2% 75% 2% 25%;
+  text-align: center;
+  width: 125px;
+  height: auto;
+}
+#instructions {
+  margin: 1% 0% 1% 40%;
+  text-decoration: none;
+  width: 300px;
+}
+#dropit {
+  margin: 1% 0% 25% 65%;
+}
+#dropit a {
   color: rgb(255, 50, 10);
-  text-decoration: underline;
+  display: inline-block;
+  font-size: 20px;
+  margin: 1% 1% 1% 1%;
+  text-align: right;
+  text-decoration: none;
+  height: auto;
 }
