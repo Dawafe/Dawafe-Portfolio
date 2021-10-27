@@ -16,5 +16,8 @@ body {
   color: rgb(255, 50, 10);
   display: block;
   text-align: left;
-
+}
+#instructions a {
+  color: rgb(255, 50, 10);
+  text-decoration: underline;
 }
