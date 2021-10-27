@@ -17,7 +17,7 @@ body {
   display: block;
   text-align: left;
 }
-#instructions a {
+.intro a {
   color: rgb(255, 50, 10);
   text-decoration: underline;
 }
