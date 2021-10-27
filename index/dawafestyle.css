@@ -1,0 +1,20 @@
+body {
+  background-color: rgba(24, 3, 3);
+  font-family: monospace;
+  padding: 2px 3px 2px 3px;
+}
+.welcome {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 4% 0 10% 0;
+  text-align: center;
+  width: 98%;
+}
+.intro {
+  color: rgb(255, 50, 10);
+  display: block;
+  text-align: left;
+
+}
