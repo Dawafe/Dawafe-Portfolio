@@ -20,13 +20,14 @@ body {
 }
 #hi {
   font-size: 25px;
-  margin: 2% 75% 2% 25%;
+  margin: 2% 75% 2% 20%;
   text-align: center;
-  width: 125px;
+  width: 15%;
   height: auto;
 }
 #instructions {
-  margin: 1% 0% 1% 40%;
+  font-size: 18px;
+  margin: 5% 0% 1% 40%;
   text-decoration: none;
   width: 300px;
 }
@@ -37,8 +38,37 @@ body {
   color: rgb(255, 50, 10);
   display: inline-block;
   font-size: 20px;
-  margin: 1% 1% 1% 1%;
+  margin: 10% 0.5% 25% 1%;
   text-align: right;
   text-decoration: none;
   height: auto;
+}
+.bio p {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 50% 0% 5% 42%;
+}
+#story {
+  color: rgb(255, 50, 10);
+  display: flex;
+  font-size: 20px;
+  width: 70%;
+  margin-left: 16%;
+  margin-bottom: 20%;
+}
+.projects p {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 90% 0% 5% 37%;
+}
+.contact p {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 90% 0% 5% 37%;
 }
