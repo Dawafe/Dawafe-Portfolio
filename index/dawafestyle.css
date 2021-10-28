@@ -65,11 +65,17 @@ body {
   text-decoration: underline;
   margin: 90% 0% 5% 37%;
 }
-.projects div {
-  background-image: url("images/wildimage.jpeg");
+#wild {
   background-size: contain;
   background-repeat: no-repeat;
+  display: block;
   float: right;
+  height: 70em;
+  width: 40em;
+  margin-right: 13%;
+  margin-top: 12%;
+}
+#wild a {
   height: 70em;
   width: 40em;
   margin-right: 13%;
