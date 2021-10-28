@@ -81,8 +81,21 @@ body {
   margin-right: 13%;
   margin-top: 12%;
 }
+#wildtitle {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  float: left;
+}
+#wildtype {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 20px;
+}
 .contact p {
   color: rgb(255, 50, 10);
+  Display:
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   text-decoration: underline;
