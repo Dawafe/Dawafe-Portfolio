@@ -58,46 +58,65 @@ body {
   margin-left: 16%;
   margin-bottom: 20%;
 }
-.projects p {
+#protitle {
   color: rgb(255, 50, 10);
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   text-decoration: underline;
   margin: 90% 0% 5% 37%;
+}
+#wildtitle {
+  color: rgb(255, 50, 10);
+  display: flex;
+  font-size: 40px;
+  margin: 0% 0% 2% 3%;
+}
+#wildlist {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 25px;
+  margin: 2% 0% 5% 3%;
+}
+#wildlist ul {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 20px;
+  list-style: none;
+  margin: 5% 0% 0% 2%;
 }
 #wild {
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
   float: right;
+  margin-right: 13%;
+  margin-top: 2%;
   height: 70em;
   width: 40em;
-  margin-right: 13%;
-  margin-top: 12%;
 }
 #wild a {
+  float: right;
   height: 70em;
-  width: 40em;
   margin-right: 13%;
-  margin-top: 12%;
+  margin-top: 0%;
+  width: 40em;
 }
-#wildtitle {
-  color: rgb(255, 50, 10);
-  display: block;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 40px;
-  float: left;
-}
-#wildtype {
-  color: rgb(255, 50, 10);
-  display: block;
-  font-size: 20px;
+.contact {
+  margin: 2% 0% 10% 5%;
 }
 .contact p {
   color: rgb(255, 50, 10);
-  Display:
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   text-decoration: underline;
   margin: 90% 0% 5% 37%;
+}
+.contact div {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 25px;
+}
+.contact a {
+  color: rgb(255, 50, 10);
+  text-decoration: none;
 }
