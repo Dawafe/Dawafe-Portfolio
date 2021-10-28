@@ -65,6 +65,16 @@ body {
   text-decoration: underline;
   margin: 90% 0% 5% 37%;
 }
+.projects div {
+  background-image: url("images/wildimage.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  height: 70em;
+  width: 40em;
+  margin-right: 13%;
+  margin-top: 12%;
+}
 .contact p {
   color: rgb(255, 50, 10);
   font-family: 'Orbitron', sans-serif;
