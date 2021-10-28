@@ -1,0 +1,71 @@
+<!--
+- find a font for intro/menu/bio/project descriptions
+- get a screenshot of imageofthewild for project section
+- search for stylish contact display
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dawafestyle.css">
+    <script>
+      $(document).ready(function(){
+        $("instructions").click(function(){
+          $("#dropit").slideToggle();
+        });
+      });
+    </script>
+    <title>DAWAFE</title>
+  </head>
+<body>
+  <header>
+    <nav>
+      <div class="welcome">Welcome To The<br>digital : portfolio<br>Of Dan Ferg</div>
+    </nav>
+  </header>
+  <section class="intro">
+    <p id="hi">-> Hi there</p>
+    <p id="instructions">here are a few options to choose from, or you may scroll down the page to see all content in order</p>
+      <div id="dropit">
+        <a id="contact" href="#"> CONTACT</a>
+        <a id="bio" href="#">- BIO -</a>
+        <a id="projects" href="#">PROJECTS</a>
+      </div>
+  </section>
+  <section class="bio">
+    <P> - BIO - </p>
+    <div id="story">Dan Ferg is a web developer and closet nerd who has recently discovered the joys of coding. He likens it to LEGOS as the possibilities are seemingly endless, and yet the natural limitations of the systems force a challenge on creativity of innovation and problem solving. This makes Dan happy.
+      Dan learned to code in 2021. Unlike some, who desired to work from home after the experience of the 2020 pandemic, his motivation for moving into web development was one rooted in a desire to find an occupation that fit his personality, skills, and would bring more satisfaction and less of a drain on his soul. He dabbled in Python to begin with, but soon realized that he wanted to build things that would have more direct interaction with the end user. So web development was an obvious attraction. It has not dissapointed. Continue on to see some of Dan's projects, and stay dangerous.</div>
+  </section>
+  <section>
+    <p id="protitle"> - PROJECTS - </p>
+    <div id="wildtitle">Photography Site</div>
+    <div id="wildlist">click the image to explore an example site for small businesses
+      <ul>
+        <li>FOCUS</li>
+        <li>- Responsive for any size screen</li>
+        <li>- Simplisity and product display</li>
+      </ul>
+    </div>
+    <div id="wild">
+      <a href="https://imageofthewild.netlify.app">
+        <img src="images/wildimage.jpeg" width=520 height=570>
+      </a>
+    </div>
+  </section>
+  <section class="contact">
+    <p> - CONTACT -</p>
+    <div>Cell: +1 (714) 559-0485</div>
+    <div>email: daniel.wayne.fergus@gmail.com</div>
+    <div><a href="www.linkedin.com/in/dan-ferg">LinkedIn: www.linkedin.com/in/dan-ferg</a></div>
+  </section>
+    <footer>
+    </footer>
+  </body>
+</html>

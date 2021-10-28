@@ -1,0 +1,121 @@
+body {
+  background-color: rgba(24, 3, 3);
+  font-family: monospace;
+  padding: 2px 3px 2px 3px;
+}
+.welcome {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 4% 0 10% 0;
+  text-align: center;
+  width: 98%;
+}
+.intro {
+  color: rgb(255, 50, 10);
+  display: inline-block;
+  width: 100%;
+}
+#hi {
+  font-size: 25px;
+  margin: 2% 75% 2% 20%;
+  text-align: center;
+  width: 15%;
+  height: auto;
+}
+#instructions {
+  font-size: 18px;
+  margin: 5% 0% 1% 40%;
+  text-decoration: none;
+  width: 300px;
+}
+#dropit {
+  margin: 1% 0% 25% 65%;
+}
+#dropit a {
+  color: rgb(255, 50, 10);
+  display: inline-block;
+  font-size: 20px;
+  margin: 10% 0.5% 25% 1%;
+  text-align: right;
+  text-decoration: none;
+  height: auto;
+}
+.bio p {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 50% 0% 5% 42%;
+}
+#story {
+  color: rgb(255, 50, 10);
+  display: flex;
+  font-size: 20px;
+  width: 70%;
+  margin-left: 16%;
+  margin-bottom: 20%;
+}
+#protitle {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 90% 0% 5% 37%;
+}
+#wildtitle {
+  color: rgb(255, 50, 10);
+  display: flex;
+  font-size: 40px;
+  margin: 0% 0% 2% 3%;
+}
+#wildlist {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 25px;
+  margin: 2% 0% 5% 3%;
+}
+#wildlist ul {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 20px;
+  list-style: none;
+  margin: 5% 0% 0% 2%;
+}
+#wild {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  float: right;
+  margin-right: 13%;
+  margin-top: 2%;
+  height: 70em;
+  width: 40em;
+}
+#wild a {
+  float: right;
+  height: 70em;
+  margin-right: 13%;
+  margin-top: 0%;
+  width: 40em;
+}
+.contact {
+  margin: 2% 0% 10% 5%;
+}
+.contact p {
+  color: rgb(255, 50, 10);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 90% 0% 5% 37%;
+}
+.contact div {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 25px;
+}
+.contact a {
+  color: rgb(255, 50, 10);
+  text-decoration: none;
+}
