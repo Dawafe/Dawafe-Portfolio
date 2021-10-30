@@ -115,6 +115,12 @@ body {
   display: block;
   font-size: 25px;
 }
+#toplink {
+  color: rgb(255, 50, 10);
+  text-decoration: none;
+  float: right;
+  font-size: 20px;
+}
 .contact a {
   color: rgb(255, 50, 10);
   text-decoration: none;
