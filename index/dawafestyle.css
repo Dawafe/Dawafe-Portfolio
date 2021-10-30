@@ -110,6 +110,11 @@ body {
   text-decoration: underline;
   margin: 90% 0% 5% 37%;
 }
+#contact {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-size: 25px;
+}
 .contact div {
   color: rgb(255, 50, 10);
   display: block;
