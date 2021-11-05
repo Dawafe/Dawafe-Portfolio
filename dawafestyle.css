@@ -18,14 +18,16 @@ body {
   width: 100%;
 }
 #hi {
-  font-size: 25px;
-  margin: 2% 75% 2% 20%;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 40px;
+  margin: 2% 75% 2% 15%;
   text-align: center;
   width: 15%;
   height: auto;
 }
 #instructions {
-  font-size: 18px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
   margin: 5% 0% 1% 40%;
   text-decoration: none;
   width: 300px;
@@ -36,10 +38,11 @@ body {
 #dropit a {
   color: rgb(255, 50, 10);
   display: inline-block;
+  font-family: 'Orbitron', sans-serif;
   font-size: 20px;
   margin: 10% 0.5% 25% 1%;
   text-align: right;
-  text-decoration: none;
+  text-decoration: underline;
   height: auto;
 }
 .bio p {
@@ -52,7 +55,8 @@ body {
 #story {
   color: rgb(255, 50, 10);
   display: flex;
-  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 30px;
   width: 70%;
   margin-left: 16%;
   margin-bottom: 20%;
@@ -67,12 +71,14 @@ body {
 #wildtitle {
   color: rgb(255, 50, 10);
   display: flex;
+  font-family: 'Orbitron', sans-serif;
   font-size: 40px;
   margin: 0% 0% 2% 3%;
 }
 #wildlist {
   color: rgb(255, 50, 10);
   display: block;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
   margin: 2% 0% 5% 3%;
 }
@@ -88,17 +94,61 @@ body {
   background-repeat: no-repeat;
   display: block;
   float: right;
+  height: 40em;
   margin-right: 13%;
   margin-top: 2%;
-  height: 70em;
   width: 40em;
 }
 #wild a {
   float: right;
-  height: 70em;
+  height: 40em;
   margin-right: 13%;
   margin-top: 0%;
   width: 40em;
+}
+#wethrtitle {
+  color: rgb(255, 50, 10);
+  display: flex;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  margin: 800px 0% 2% 3%;
+}
+#wethrlist ul {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  list-style: none;
+  margin: 5% 0% 0% 2%;
+}
+#wethrlist {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  margin: 2% 0% 5% 3%;
+}
+#getwethr {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  float: none;
+  margin: 2% 2% 2% 2%;
+  height: 20em;
+  width: 40em;
+}
+#getwethr a {
+  float: left;
+  height: 40em;
+  margin-left: 50%;
+  width: 40em;
+}
+#getwethrdetails {
+  color: rgb(255, 50, 10);
+  display: block;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  margin: 2% 0% 5% 3%;
 }
 .contact {
   margin: 2% 0% 10% 5%;
