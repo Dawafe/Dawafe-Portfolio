@@ -87,7 +87,7 @@ body {
   display: block;
   font-size: 20px;
   list-style: none;
-  margin: 5% 0% 0% 2%;
+  margin: 5% 0% -10% 2%;
 }
 #wild {
   background-size: contain;
@@ -96,13 +96,13 @@ body {
   float: right;
   height: 40em;
   margin-right: 13%;
-  margin-top: 2%;
+  margin-top: 0%;
   width: 40em;
 }
 #wild a {
   float: right;
   height: 40em;
-  margin-right: 13%;
+  margin-right: 15%;
   margin-top: 0%;
   width: 40em;
 }
@@ -120,6 +120,7 @@ body {
   font-size: 20px;
   list-style: none;
   margin: 5% 0% 0% 2%;
+  width: 50%;
 }
 #wethrlist {
   color: rgb(255, 50, 10);
@@ -167,9 +168,10 @@ body {
 }
 #toplink {
   color: rgb(255, 50, 10);
-  text-decoration: none;
   float: right;
   font-size: 20px;
+  margin-right: 2%;
+  text-decoration: none;
 }
 .contact a {
   color: rgb(255, 50, 10);
