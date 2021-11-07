@@ -164,11 +164,13 @@ body {
 .contact div {
   color: rgb(255, 50, 10);
   display: block;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
 }
 #toplink {
   color: rgb(255, 50, 10);
   float: right;
+  font-family: 'Orbitron', sans-serif;
   font-size: 20px;
   margin-right: 2%;
   text-decoration: none;
