@@ -8,9 +8,9 @@ body {
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   font-weight: 400;
-  padding: 4% 0 10% 0;
+  padding: 4% 0% 10% 0%;
   text-align: center;
-  width: 98%;
+  width: 99%;
 }
 .intro {
   color: rgb(255, 50, 10);
@@ -30,7 +30,7 @@ body {
   font-size: 25px;
   margin: 5% 0% 1% 40%;
   text-decoration: none;
-  width: 300px;
+  width: 22%;
 }
 #dropit {
   margin: 1% 0% 25% 65%;
@@ -140,9 +140,9 @@ body {
 }
 #getwethr a {
   float: left;
-  height: 40em;
-  margin-left: 50%;
-  width: 40em;
+  height: 500px;
+  margin:0% 0% 2% 30%;
+  width: 900px;
 }
 #getwethrdetails {
   color: rgb(255, 50, 10);
@@ -178,4 +178,41 @@ body {
 .contact a {
   color: rgb(255, 50, 10);
   text-decoration: none;
+}
+/*small displays and tablets*/
+@media screen and (max-width: 1175px) {
+  #hi {
+    font-size: 25px;
+    margin: 2% 0% 2% 35%;
+  }
+  .welcome {
+    font-size: 40px;
+  }
+  #instructions {
+    display: block;
+    font-size: 20px;
+    margin: 3% 0% 0% 40%;
+    width: 30%;
+  }
+  #dropit {
+    display: block;
+    margin: 3% 0% 0% 40%;
+  }
+  #dropit a {
+    display: flex;
+    font-size: 15px;
+    margin: 1% 0% 1% 0.5%;
+  }
+  #wild a {
+    float: right;
+    height: 40em;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 30em;
+  }
+  #getwethr a {
+    float: right;
+    height: 40em;
+    margin-left: 10%;
+    width: 40em;
 }
