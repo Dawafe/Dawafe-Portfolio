@@ -73,7 +73,7 @@ body {
   display: flex;
   font-family: 'Orbitron', sans-serif;
   font-size: 40px;
-  margin: 0% 0% 2% 3%;
+  margin: 0% 0% 2% 10%;
 }
 #wildlist {
   color: rgb(255, 50, 10);
@@ -87,31 +87,29 @@ body {
   display: block;
   font-size: 20px;
   list-style: none;
-  margin: 5% 0% -10% 2%;
+  margin: 5% 0% 5% 3%;
 }
 #wild {
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
-  float: right;
   height: 40em;
   margin-right: 13%;
   margin-top: 0%;
   width: 40em;
 }
 #wild a {
-  float: right;
-  height: 40em;
-  margin-right: 15%;
-  margin-top: 0%;
-  width: 40em;
+  display: flex;
+  height: 800px;
+  margin: 15% 5% 5% 10%;
+  width: auto;
 }
 #wethrtitle {
   color: rgb(255, 50, 10);
-  display: flex;
+  display: block;
   font-family: 'Orbitron', sans-serif;
   font-size: 40px;
-  margin: 800px 0% 2% 3%;
+  margin: 30% 0% 2% 3%;
 }
 #wethrlist ul {
   color: rgb(255, 50, 10);
@@ -127,29 +125,21 @@ body {
   display: block;
   font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
-  margin: 2% 0% 5% 3%;
-}
-#getwethr {
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: block;
-  float: none;
-  margin: 2% 2% 2% 2%;
-  height: 20em;
-  width: 40em;
+  margin: 5% 0% 5% 3%;
 }
 #getwethr a {
-  float: left;
-  height: 500px;
-  margin:0% 0% 2% 30%;
-  width: 900px;
+  display: flex;
+  height: 600px;
+  margin:5% 0% 2% 7%;
+  width: auto;
 }
 #getwethrdetails {
   color: rgb(255, 50, 10);
   display: block;
   font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
-  margin: 2% 0% 5% 3%;
+  margin: 5% 0% 5% 7%;
+  width: 50%;
 }
 .contact {
   margin: 2% 0% 10% 5%;
@@ -179,7 +169,11 @@ body {
   color: rgb(255, 50, 10);
   text-decoration: none;
 }
+
+
 /*small displays and tablets*/
+
+
 @media screen and (max-width: 1175px) {
   #hi {
     font-size: 25px;
@@ -192,7 +186,7 @@ body {
     display: block;
     font-size: 20px;
     margin: 3% 0% 0% 40%;
-    width: 30%;
+    width: 20%;
   }
   #dropit {
     display: block;
@@ -204,15 +198,88 @@ body {
     margin: 1% 0% 1% 0.5%;
   }
   #wild a {
-    float: right;
-    height: 40em;
-    margin-right: 10%;
-    margin-top: 0%;
-    width: 30em;
+    display: flex;
+    height: 600px;
+    margin: 10% 10% 0% 0%;
+    width: 500px;
   }
   #getwethr a {
-    float: right;
     height: 40em;
     margin-left: 10%;
     width: 40em;
+}
+
+
+/*small tablets / widescreen phones*/
+
+
+@media screen and (max-width: 950px) {
+  body {
+    padding: 1% 10% 3% 10%;
+  }
+  .bio p {
+    font-size: 30px;
+  }
+  #story {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 16%;
+    margin-bottom: 20%;
+  }
+  #protitle {
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 90% 0% 5% 30%;
+  }
+  #wildtitle {
+    font-size: 25px;
+    margin: 0% 0% 2% 3%;
+  }
+  #wildlist {
+    font-size: 20px;
+    margin: 2% 0% 5% 3%;
+  }
+  #wildlist ul {
+    font-size: 15px;
+    list-style: none;
+    margin: 5% 0% -10% 2%;
+  }
+  #wild {
+    display: flex;
+    margin-right: 0%;
+    margin-top: 0%;
+    width: 320px;
+  }
+  #wild a {
+    display: inline-flex;
+    height: 350px;
+    margin-top: 15%;
+    margin-left: 10%;
+    width: auto;
+  }
+  #wethrtitle {
+    font-size: 25px;
+  }
+  #wethrlist ul {
+    font-size: 15px;
+    margin: 5% 0% -5% -5%;
+  }
+  #wethrlist {
+    font-size: 20px;
+  }
+  #getwethr {
+    margin: 2% 2% 2% 2%;
+    width: 300px;
+  }
+  #getwethr a {
+    display: flex;
+    height: 220px;
+    margin:0% 0% 2% 0%;
+    width: 320px;
+  }
+  #getwethrdetails {
+    font-size: 15px;
+    margin: 2% 0% 5% 3%;
+  }
 }
