@@ -66,7 +66,7 @@ body {
   font-family: 'Orbitron', sans-serif;
   font-size: 50px;
   text-decoration: underline;
-  margin: 90% 0% 5% 37%;
+  margin: 90% 0% 5% 35%;
 }
 #wildtitle {
   color: rgb(255, 50, 10);
@@ -80,28 +80,26 @@ body {
   display: block;
   font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
-  margin: 2% 0% 5% 3%;
+  margin: 2% 0% 5% 10%;
 }
 #wildlist ul {
   color: rgb(255, 50, 10);
   display: block;
   font-size: 20px;
   list-style: none;
-  margin: 5% 0% 5% 3%;
+  margin: 2% 0% 3% 1%;
 }
 #wild {
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
   height: 40em;
-  margin-right: 13%;
-  margin-top: 0%;
   width: 40em;
 }
 #wild a {
   display: flex;
   height: 800px;
-  margin: 15% 5% 5% 10%;
+  margin: 15% 5% 5% 30%;
   width: auto;
 }
 #wethrtitle {
@@ -109,7 +107,7 @@ body {
   display: block;
   font-family: 'Orbitron', sans-serif;
   font-size: 40px;
-  margin: 30% 0% 2% 3%;
+  margin: 30% 0% 2% 10%;
 }
 #wethrlist ul {
   color: rgb(255, 50, 10);
@@ -117,7 +115,7 @@ body {
   font-family: 'Rajdhani', sans-serif;
   font-size: 20px;
   list-style: none;
-  margin: 5% 0% 0% 2%;
+  margin: 5% 0% 0% 5%;
   width: 50%;
 }
 #wethrlist {
@@ -125,12 +123,12 @@ body {
   display: block;
   font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
-  margin: 5% 0% 5% 3%;
+  margin: 5% 0% 5% 2%;
 }
 #getwethr a {
   display: flex;
   height: 600px;
-  margin:5% 0% 2% 7%;
+  margin:5% 0% 2% 10%;
   width: auto;
 }
 #getwethrdetails {
@@ -138,7 +136,7 @@ body {
   display: block;
   font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
-  margin: 5% 0% 5% 7%;
+  margin: 5% 0% 5% 10%;
   width: 50%;
 }
 .contact {
@@ -147,9 +145,9 @@ body {
 .contact p {
   color: rgb(255, 50, 10);
   font-family: 'Orbitron', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   text-decoration: underline;
-  margin: 90% 0% 5% 37%;
+  margin: 90% 0% 5% 35%;
 }
 .contact div {
   color: rgb(255, 50, 10);
@@ -200,7 +198,7 @@ body {
   #wild a {
     display: flex;
     height: 600px;
-    margin: 10% 10% 0% 0%;
+    margin: 10% 10% 0% 25%;
     width: 500px;
   }
   #getwethr a {
@@ -215,16 +213,36 @@ body {
 
 @media screen and (max-width: 950px) {
   body {
-    padding: 1% 10% 3% 10%;
+    padding: 1% 7% 3% 7%;
+  }
+  .welcome {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 4% 0% 10% 0%;
+    text-align: center;
+    width: 99%;
+  }
+  #hi {
+    font-size: 20px;
+    margin: 2% 0% 2% 40%;
+    text-align: center;
+    width: 100px;
+    height: auto;
+  }
+  #instructions {
+    font-size: 15px;
+    margin: 5% 0% 5% 40%;
+    text-decoration: none;
+    width: 175px;
   }
   .bio p {
     font-size: 30px;
   }
   #story {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 20px;
-    width: 70%;
-    margin-left: 16%;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 10%;
     margin-bottom: 20%;
   }
   #protitle {
@@ -241,7 +259,7 @@ body {
     margin: 2% 0% 5% 3%;
   }
   #wildlist ul {
-    font-size: 15px;
+    font-size: 18px;
     list-style: none;
     margin: 5% 0% -10% 2%;
   }
@@ -263,23 +281,93 @@ body {
   }
   #wethrlist ul {
     font-size: 15px;
-    margin: 5% 0% -5% -5%;
+    margin: 5% 0% 5% 0%;
+    width: 300px;
   }
   #wethrlist {
     font-size: 20px;
   }
   #getwethr {
-    margin: 2% 2% 2% 2%;
+    margin: 2% 2% 5% 2%;
     width: 300px;
   }
   #getwethr a {
     display: flex;
     height: 220px;
-    margin:0% 0% 2% 0%;
+    margin:0% 0% 10% 10%;
     width: 320px;
   }
   #getwethrdetails {
     font-size: 15px;
+    margin: 2% 0% 0% 10%;
+    width: 275px;
+  }
+  .contact p {
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .contact div {
+    font-size: 20px;
+  }
+  #toplink {
+    display: block;
+    float: none;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .welcome {
+    font-size: 30px;
+    margin-top: 20%;
+  }
+  #hi {
+    margin: 2% 0% 2% 30%;
+  }
+  #instructions {
+    margin: 15% 0% 20% 30%;
+  }
+  #dropit a {
+    margin: 10% 0% 2% 0%;
+  }
+  .bio p {
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 170%;
+  }
+  #story {
+    margin-left: 5%;
+    margin-bottom: 20%;
+    width: 90%;
+  }
+  #protitle {
+    font-size: 28px;
+    text-decoration: underline;
+    margin: 90% 0% 5% 10%;
+  }
+  #wildtitle {
+    font-size: 22px;
+    margin: 0% 0% 2% 3%;
+  }
+  #wildlist {
+    font-size: 20px;
     margin: 2% 0% 5% 3%;
   }
+  #wild {
+    display: flex;
+    margin-right: 0%;
+    margin-top: 0%;
+    width: 320px;
+  }
+  #wild a {
+    display: inline-flex;
+    height: 415px;
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 320px;
+  }
+  .contact p {
+    font-size: 25px;
+    margin-left: 10%;
 }
