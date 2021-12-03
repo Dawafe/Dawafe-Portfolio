@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(24, 3, 3);
+  background-color: rgba(15, 10, 10);
   font-family: monospace;
   padding: 2px 3px 2px 3px;
 }
@@ -10,40 +10,35 @@ body {
   font-weight: 400;
   padding: 4% 0% 10% 0%;
   text-align: center;
-  width: 99%;
+  width: 100%;
 }
 .intro {
   color: rgb(255, 50, 10);
   display: inline-block;
   width: 100%;
 }
-#hi {
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 40px;
-  margin: 2% 75% 2% 15%;
-  text-align: center;
-  width: 15%;
-  height: auto;
-}
 #instructions {
   font-family: 'Rajdhani', sans-serif;
   font-size: 25px;
-  margin: 5% 0% 1% 40%;
+  margin: 2% 0% 1% 0%;
+  text-align: center;
   text-decoration: none;
-  width: 22%;
+  width: 100%;
 }
 #dropit {
-  margin: 1% 0% 25% 65%;
+  margin: 5% 0% 25% 0%;
+  text-align: center;
 }
 #dropit a {
   color: rgb(255, 50, 10);
   display: inline-block;
   font-family: 'Orbitron', sans-serif;
   font-size: 20px;
-  margin: 10% 0.5% 25% 1%;
-  text-align: right;
+  padding: 0% 2% 0% 2%;
+  text-align: center;
   text-decoration: underline;
   height: auto;
+  width: auto;
 }
 .bio p {
   color: rgb(255, 50, 10);
