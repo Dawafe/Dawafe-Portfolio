@@ -156,6 +156,14 @@ body {
   list-style: none;
   margin: 2% 0% 3% 1%;
 }
+#authdetails {
+    color: rgb(255, 50, 10);
+    display: block;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    margin: 5% 0% 5% 2%;
+    width: 50%;
+}
 #authsurvey a {
   display: flex;
   height: 600px;
